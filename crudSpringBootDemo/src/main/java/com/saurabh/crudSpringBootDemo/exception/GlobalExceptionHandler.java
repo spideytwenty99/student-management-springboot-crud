@@ -1,8 +1,8 @@
-package in.strikes.crudSpringBootDemo.exception;
+package com.saurabh.crudSpringBootDemo.exception;
 
 
-import in.strikes.crudSpringBootDemo.dto.ExceptionResponseDto;
-import in.strikes.crudSpringBootDemo.dto.ValidationExceptionResponseDto;
+import com.saurabh.crudSpringBootDemo.dto.ExceptionResponseDto;
+import com.saurabh.crudSpringBootDemo.dto.ValidationExceptionResponseDto;
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

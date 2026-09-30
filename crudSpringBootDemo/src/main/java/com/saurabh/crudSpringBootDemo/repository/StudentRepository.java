@@ -1,8 +1,7 @@
-package in.strikes.crudSpringBootDemo.repository;
+package com.saurabh.crudSpringBootDemo.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.stereotype.Component;
-import in.strikes.crudSpringBootDemo.entitiy.Student;
+import com.saurabh.crudSpringBootDemo.entitiy.Student;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;

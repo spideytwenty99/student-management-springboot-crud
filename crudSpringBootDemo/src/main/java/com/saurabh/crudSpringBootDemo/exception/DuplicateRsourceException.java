@@ -1,4 +1,4 @@
-package in.strikes.crudSpringBootDemo.exception;
+package com.saurabh.crudSpringBootDemo.exception;
 
 public class DuplicateRsourceException extends RuntimeException {
 

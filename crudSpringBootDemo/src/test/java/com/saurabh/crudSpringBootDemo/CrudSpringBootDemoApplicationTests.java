@@ -1,4 +1,4 @@
-package in.strikes.crudSpringBootDemo;
+package com.saurabh.crudSpringBootDemo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,21 +1,25 @@
-package in.strikes.crudSpringBootDemo.dto;
+package com.saurabh.crudSpringBootDemo.dto;
 
 import java.time.LocalDateTime;
+import java.util.Map;
 
-public class ExceptionResponseDto {
-    public ExceptionResponseDto(LocalDateTime timestamp, int statusCode, String error, String message, String path) {
-        this.timestamp = timestamp;
-        this.statusCode = statusCode;
-        this.error = error;
-        this.message = message;
-        this.path = path;
-    }
+public class ValidationExceptionResponseDto {
 
     private LocalDateTime timestamp;
     private int statusCode;
     private String error;
     private String message;
     private String path;
+    private Map<String, String> fieldErrors;
+
+    public ValidationExceptionResponseDto(LocalDateTime timestamp, int statusCode, String error, String message, String path, Map<String, String> fieldErrors) {
+        this.timestamp = timestamp;
+        this.statusCode = statusCode;
+        this.error = error;
+        this.message = message;
+        this.path = path;
+        this.fieldErrors = fieldErrors;
+    }
 
     public LocalDateTime getTimestamp() {
         return timestamp;
@@ -55,5 +59,13 @@ public class ExceptionResponseDto {
 
     public void setPath(String path) {
         this.path = path;
+    }
+
+    public Map<String, String> getFieldErrors() {
+        return fieldErrors;
+    }
+
+    public void setFieldErrors(Map<String, String> fieldErrors) {
+        this.fieldErrors = fieldErrors;
     }
 }

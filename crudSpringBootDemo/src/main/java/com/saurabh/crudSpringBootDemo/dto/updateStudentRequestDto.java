@@ -1,4 +1,4 @@
-package in.strikes.crudSpringBootDemo.dto;
+package com.saurabh.crudSpringBootDemo.dto;
 
 public class updateStudentRequestDto {
 

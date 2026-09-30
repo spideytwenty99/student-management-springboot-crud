@@ -1,4 +1,4 @@
-package in.strikes.crudSpringBootDemo.entitiy;
+package com.saurabh.crudSpringBootDemo.entitiy;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

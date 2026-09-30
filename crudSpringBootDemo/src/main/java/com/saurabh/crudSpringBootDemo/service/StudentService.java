@@ -1,19 +1,18 @@
-package in.strikes.crudSpringBootDemo.service;
+package com.saurabh.crudSpringBootDemo.service;
 
 
-import in.strikes.crudSpringBootDemo.dto.createStudentRequestDto;
-import in.strikes.crudSpringBootDemo.dto.createStudentResponseDto;
-import in.strikes.crudSpringBootDemo.dto.updateResponseStudentDto;
-import in.strikes.crudSpringBootDemo.dto.updateStudentRequestDto;
-import in.strikes.crudSpringBootDemo.entitiy.Student;
-import in.strikes.crudSpringBootDemo.exception.DuplicateRsourceException;
-import in.strikes.crudSpringBootDemo.exception.ResourceNotFoundException;
-import in.strikes.crudSpringBootDemo.repository.StudentRepository;
+import com.saurabh.crudSpringBootDemo.dto.createStudentRequestDto;
+import com.saurabh.crudSpringBootDemo.dto.createStudentResponseDto;
+import com.saurabh.crudSpringBootDemo.dto.updateResponseStudentDto;
+import com.saurabh.crudSpringBootDemo.dto.updateStudentRequestDto;
+import com.saurabh.crudSpringBootDemo.entitiy.Student;
+import com.saurabh.crudSpringBootDemo.exception.DuplicateRsourceException;
+import com.saurabh.crudSpringBootDemo.exception.ResourceNotFoundException;
+import com.saurabh.crudSpringBootDemo.repository.StudentRepository;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
 import java.util.List;
-import java.util.Optional;
 
 @Service
 public class StudentService {

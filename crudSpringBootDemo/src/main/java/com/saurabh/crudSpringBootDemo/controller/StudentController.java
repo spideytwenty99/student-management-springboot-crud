@@ -1,13 +1,12 @@
-package in.strikes.crudSpringBootDemo.controller;
+package com.saurabh.crudSpringBootDemo.controller;
 
 
 
-import in.strikes.crudSpringBootDemo.dto.createStudentRequestDto;
-import in.strikes.crudSpringBootDemo.dto.createStudentResponseDto;
-import in.strikes.crudSpringBootDemo.dto.updateResponseStudentDto;
-import in.strikes.crudSpringBootDemo.dto.updateStudentRequestDto;
-import in.strikes.crudSpringBootDemo.entitiy.Student;
-import in.strikes.crudSpringBootDemo.service.StudentService;
+import com.saurabh.crudSpringBootDemo.dto.createStudentRequestDto;
+import com.saurabh.crudSpringBootDemo.dto.createStudentResponseDto;
+import com.saurabh.crudSpringBootDemo.dto.updateResponseStudentDto;
+import com.saurabh.crudSpringBootDemo.dto.updateStudentRequestDto;
+import com.saurabh.crudSpringBootDemo.service.StudentService;
 import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

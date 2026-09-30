@@ -1,8 +1,8 @@
-package in.strikes.crudSpringBootDemo.dto;
+package com.saurabh.crudSpringBootDemo.dto;
 
 import java.time.LocalDateTime;
 
-public class createStudentResponseDto {
+public class updateResponseStudentDto {
 
     private Long Id;
     private String name;
@@ -11,8 +11,15 @@ public class createStudentResponseDto {
     private int rollNo;
     private String subject;
     private String message;
-    private LocalDateTime createdAt;
     private LocalDateTime updatedAt;
+
+    public Long getId() {
+        return Id;
+    }
+
+    public void setId(Long id) {
+        Id = id;
+    }
 
     public String getName() {
         return name;
@@ -60,21 +67,6 @@ public class createStudentResponseDto {
 
     public void setMessage(String message) {
         this.message = message;
-    }
-
-    public Long getId() {
-        return Id;
-    }
-
-    public void setId(Long id) {
-        Id = id;
-    }
-    public LocalDateTime getCreatedAt() {
-        return createdAt;
-    }
-
-    public void setCreatedAt(LocalDateTime createdAt) {
-        this.createdAt = createdAt;
     }
 
     public LocalDateTime getUpdatedAt() {
